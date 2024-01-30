@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './Detail.module.css';
-import { Cat } from '@/api/cats/types';
+import { Cat } from '@/api/types';
 
 interface Props {
   cat: Cat;
