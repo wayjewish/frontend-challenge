@@ -1,0 +1,23 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.tab {
+  flex-shrink: 0;
+  height: 100%;
+  padding: 20px;
+
+  list-style: none;
+  cursor: pointer;
+
+  color: var(--color-grey);
+}
+
+.tabActive {
+  background: var(--color-blue2);
+  color: var(--color-white);
+}
+
+
